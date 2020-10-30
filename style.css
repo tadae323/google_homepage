@@ -14,25 +14,26 @@ body {
 img {
   display: block;
   margin: auto;
+  padding: 10px;
 }
 
 form {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
+  display: grid;
 }
 
 input {
   height: 1.5em;
   width: 300px;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 1px solid rgb(197, 197, 197);
 }
 
 input:hover {
-  box-shadow: 2px 2px 5px grey;
+  box-shadow: 2px 1px 3px grey;
 }
 
 button {
-  margin-left: 10px;
+  border: none;
+  color: gray;
+  margin: 10px;
 }

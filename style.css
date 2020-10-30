@@ -1,4 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #container {
+  height: 80vh;
   display: grid;
   place-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+input {
+  height: 1.5em;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+input:hover {
+  box-shadow: 2px 2px 5px grey;
+}
+
+button {
+  margin-left: 10px;
 }

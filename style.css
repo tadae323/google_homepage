@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
 #container {
   height: 80vh;
   display: grid;
@@ -55,18 +50,30 @@ button:hover {
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
-  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 a {
-  display: inline;
-  margin: 5px;
+  margin: 10px;
   line-height: 1.5em;
   text-decoration: none;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
-  box-sizing: border-box;
+  font-size: 14px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: right;
 }
